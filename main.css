@@ -120,7 +120,6 @@ body {
 .view-counter {
     font-size: 1rem;
     font-weight: normal;
-    line-height: 0.8rem;
 }
 
 .share-section {
@@ -202,7 +201,6 @@ body {
 
 .thumb-info {
     width: 50%;
-    line-height: 0.7rem;
     padding-left: 8px;
 }
 
@@ -256,4 +254,22 @@ body {
     margin-top: 0;
     font-size: 0.9rem;
     font-weight: normal;
+}
+
+@media only screen and (max-width: 1000px) {
+    .page-content {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .video-column {
+        width: 90%;
+        margin-right: 4.8%;
+        margin-left: 4.8%;
+    }
+
+    .thumbnail-column {
+        margin-left: 4.8%;
+    }
 }
