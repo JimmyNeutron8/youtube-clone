@@ -64,7 +64,19 @@ body {
 }
 
 .video-player {
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 56.25%;
     width: 100%;
+}
+
+.video-player iframe {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
 }
 
 .thumbnail-column {
